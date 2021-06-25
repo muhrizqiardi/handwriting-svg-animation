@@ -2,4 +2,4 @@
 
 Cool, right?
 
-Refresh or [click here](https://github.com/muhrizqiardi/handwriting-svg-animation#readme) to restart the animation.
+Refresh to restart the animation.
