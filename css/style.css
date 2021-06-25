@@ -5,7 +5,7 @@ svg {
 
 #layer1 path#path1 {
   stroke-dasharray: 678.2276000977 !important;
-  animation: path1-anim 5s;
+  animation: path1-anim 2s;
 }
 @keyframes path1-anim {
   0% {
@@ -17,7 +17,7 @@ svg {
 }
 #layer1 path#path2 {
   stroke-dasharray: 29.7843418121 !important;
-  animation: path2-anim 5s;
+  animation: path2-anim 2s;
 }
 @keyframes path2-anim {
   0% {
@@ -32,7 +32,7 @@ svg {
 }
 #layer1 path#path3 {
   stroke-dasharray: 16.4041233063 !important;
-  animation: path3-anim 5s;
+  animation: path3-anim 2s;
 }
 @keyframes path3-anim {
   0% {
@@ -46,7 +46,7 @@ svg {
   }
 }
 #layer1 path#path4 {
-  animation: path4-anim 5s !important;
+  animation: path4-anim 2s !important;
 }
 @keyframes path4-anim {
   0% {
@@ -61,7 +61,7 @@ svg {
 }
 #layer1 path#path5 {
   stroke-dasharray: 138.7648620605 !important;
-  animation: path5-anim 5s;
+  animation: path5-anim 2s;
 }
 @keyframes path5-anim {
   0% {
@@ -75,7 +75,7 @@ svg {
   }
 }
 #layer1 path#path6 {
-  animation: path6-anim 5s;
+  animation: path6-anim 2s;
 }
 @keyframes path6-anim {
   0% {

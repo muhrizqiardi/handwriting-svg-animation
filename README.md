@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/style.css">
-  <title>SVG Signature Animation</title>
-</head>
-
-<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     .markdown-body {
       box-sizing: border-box;
@@ -172,7 +161,3 @@
       <g id="layer2" style="display:none" transform="translate(51.898494,117.14658)" />
     </svg>
   </div>
-
-</body>
-
-</html>
