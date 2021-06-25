@@ -1,0 +1,92 @@
+svg {
+  width: 300px;
+  height: 300px;
+}
+$time_multiplier: 5;
+#layer1 {
+  path#path1 {
+    stroke-dasharray: 678.2276000976562 !important;
+    animation: path1-anim ($time_multiplier * 1s);
+    @keyframes path1-anim {
+      0% {
+        stroke-dashoffset: 678.2276000976562;
+      }
+      50% {
+        stroke-dashoffset: 0;
+      }
+    }
+  }
+  path#path2 {
+    stroke-dasharray: 29.78434181213379 !important;
+    animation: path2-anim ($time_multiplier * 1s);
+    @keyframes path2-anim {
+      0% {
+        stroke-dashoffset: 29.78434181213379;
+      }
+      50% {
+        stroke-dashoffset: 29.78434181213379;
+      }
+      60% {
+        stroke-dashoffset: 0;
+      }
+    }
+  }
+  path#path3 {
+    stroke-dasharray: 16.404123306274414 !important;
+    animation: path3-anim ($time_multiplier * 1s);
+    @keyframes path3-anim {
+      0% {
+        stroke-dashoffset: 16.404123306274414;
+      }
+      60% {
+        stroke-dashoffset: 16.404123306274414;
+      }
+      70% {
+        stroke-dashoffset: 0;
+      }
+    }
+  }
+  path#path4 {
+    animation: path4-anim ($time_multiplier * 1s) !important;
+    @keyframes path4-anim {
+      0% {
+        stroke-width: 0;
+      }
+      70% {
+        stroke-width: 0;
+      }
+      74% {
+        stroke-width: 6.61458;
+      }
+    }
+  }
+  path#path5 {
+    stroke-dasharray: 138.76486206054688 !important;
+    animation: path5-anim ($time_multiplier * 1s);
+    @keyframes path5-anim {
+      0% {
+        stroke-dashoffset: 138.76486206054688;
+      }
+      74.5% {
+        stroke-dashoffset: 138.76486206054688;
+      }
+      85% {
+        stroke-dashoffset: 0;
+      }
+    }
+  }
+  path#path6 {
+    animation: path6-anim ($time_multiplier * 1s);
+    @keyframes path6-anim {
+      0% {
+        stroke-width: 0;
+      }
+      96% {
+        stroke-width: 0;
+      }
+      100% {
+        stroke-width: 6.61458;
+      }
+    }
+  }
+}

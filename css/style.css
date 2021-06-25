@@ -1,0 +1,92 @@
+svg {
+  width: 300px;
+  height: 300px;
+}
+
+#layer1 path#path1 {
+  stroke-dasharray: 678.2276000977 !important;
+  animation: path1-anim 5s;
+}
+@keyframes path1-anim {
+  0% {
+    stroke-dashoffset: 678.2276000977;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+}
+#layer1 path#path2 {
+  stroke-dasharray: 29.7843418121 !important;
+  animation: path2-anim 5s;
+}
+@keyframes path2-anim {
+  0% {
+    stroke-dashoffset: 29.7843418121;
+  }
+  50% {
+    stroke-dashoffset: 29.7843418121;
+  }
+  60% {
+    stroke-dashoffset: 0;
+  }
+}
+#layer1 path#path3 {
+  stroke-dasharray: 16.4041233063 !important;
+  animation: path3-anim 5s;
+}
+@keyframes path3-anim {
+  0% {
+    stroke-dashoffset: 16.4041233063;
+  }
+  60% {
+    stroke-dashoffset: 16.4041233063;
+  }
+  70% {
+    stroke-dashoffset: 0;
+  }
+}
+#layer1 path#path4 {
+  animation: path4-anim 5s !important;
+}
+@keyframes path4-anim {
+  0% {
+    stroke-width: 0;
+  }
+  70% {
+    stroke-width: 0;
+  }
+  74% {
+    stroke-width: 6.61458;
+  }
+}
+#layer1 path#path5 {
+  stroke-dasharray: 138.7648620605 !important;
+  animation: path5-anim 5s;
+}
+@keyframes path5-anim {
+  0% {
+    stroke-dashoffset: 138.7648620605;
+  }
+  74.5% {
+    stroke-dashoffset: 138.7648620605;
+  }
+  85% {
+    stroke-dashoffset: 0;
+  }
+}
+#layer1 path#path6 {
+  animation: path6-anim 5s;
+}
+@keyframes path6-anim {
+  0% {
+    stroke-width: 0;
+  }
+  96% {
+    stroke-width: 0;
+  }
+  100% {
+    stroke-width: 6.61458;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
